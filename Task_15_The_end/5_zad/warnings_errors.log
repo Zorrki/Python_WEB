@@ -1,0 +1,18 @@
+2024-12-15 18:20:15,640 - ERROR - Ошибка в collect_info: Указанный путь с не является директорией.
+Traceback (most recent call last):
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 40, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 54, in collect_info
+    raise ValueError(f"Указанный путь {directory_path} не является директорией.")
+ValueError: Указанный путь с не является директорией.
+2024-12-15 18:20:15,669 - ERROR - Ошибка: Указанный путь с не является директорией.
+Traceback (most recent call last):
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 79, in main
+    collect_info(directory_path)
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 40, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 54, in collect_info
+    raise ValueError(f"Указанный путь {directory_path} не является директорией.")
+ValueError: Указанный путь с не является директорией.

@@ -1,0 +1,6 @@
+2024-12-15 18:21:41,201 - INFO - Выполнение collect_info с параметрами args: ('D:\\Docs\\YandexDisk\\Private\\PC\\Main docs\\GeekBrains\\Python_WEB\\Task_15_The_end\\5_zad',), kwargs: {}
+2024-12-15 18:21:41,202 - INFO - Command | py | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - debug_info | log | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - directory_contents | log | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - warnings_errors | log | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - collect_info выполнено успешно за 0.001002 секунд. Результат: None

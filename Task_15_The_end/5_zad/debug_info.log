@@ -1,0 +1,35 @@
+2024-12-15 18:20:15,640 - INFO - Выполнение collect_info с параметрами args: ('с',), kwargs: {}
+2024-12-15 18:20:15,640 - ERROR - Ошибка в collect_info: Указанный путь с не является директорией.
+Traceback (most recent call last):
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 40, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 54, in collect_info
+    raise ValueError(f"Указанный путь {directory_path} не является директорией.")
+ValueError: Указанный путь с не является директорией.
+2024-12-15 18:20:15,669 - ERROR - Ошибка: Указанный путь с не является директорией.
+Traceback (most recent call last):
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 79, in main
+    collect_info(directory_path)
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 40, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\5_zad\Command.py", line 54, in collect_info
+    raise ValueError(f"Указанный путь {directory_path} не является директорией.")
+ValueError: Указанный путь с не является директорией.
+2024-12-15 18:20:27,250 - INFO - Выполнение collect_info с параметрами args: ('D:\\Docs\\YandexDisk\\Private\\PC\\Main docs\\GeekBrains\\Python_WEB\\Task_15_The_end\\5_zad',), kwargs: {}
+2024-12-15 18:20:27,250 - INFO - Command | py | File | 5_zad
+2024-12-15 18:20:27,250 - INFO - debug_info | log | File | 5_zad
+2024-12-15 18:20:27,250 - INFO - warnings_errors | log | File | 5_zad
+2024-12-15 18:20:27,250 - INFO - collect_info выполнено успешно за 0.0 секунд. Результат: None
+2024-12-15 18:21:31,041 - INFO - Выполнение collect_info с параметрами args: ('D:\\Docs\\YandexDisk\\Private\\PC\\Main docs\\GeekBrains\\Python_WEB\\Task_15_The_end\\5_zad',), kwargs: {}
+2024-12-15 18:21:31,041 - INFO - Command | py | File | 5_zad
+2024-12-15 18:21:31,042 - INFO - debug_info | log | File | 5_zad
+2024-12-15 18:21:31,042 - INFO - warnings_errors | log | File | 5_zad
+2024-12-15 18:21:31,042 - INFO - collect_info выполнено успешно за 0.001006 секунд. Результат: None
+2024-12-15 18:21:41,201 - INFO - Выполнение collect_info с параметрами args: ('D:\\Docs\\YandexDisk\\Private\\PC\\Main docs\\GeekBrains\\Python_WEB\\Task_15_The_end\\5_zad',), kwargs: {}
+2024-12-15 18:21:41,202 - INFO - Command | py | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - debug_info | log | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - directory_contents | log | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - warnings_errors | log | File | 5_zad
+2024-12-15 18:21:41,202 - INFO - collect_info выполнено успешно за 0.001002 секунд. Результат: None

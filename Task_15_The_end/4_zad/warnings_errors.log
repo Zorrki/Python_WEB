@@ -1,0 +1,18 @@
+2024-12-15 18:18:05,079 - ERROR - Ошибка при парсинге аргументов: 2
+Traceback (most recent call last):
+  File "d:\Docs\YandexDisk\Private\PC\Main docs\GeekBrains\Python_WEB\Task_15_The_end\4_zad\Opt_flags.py", line 73, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\karar\AppData\Local\Programs\Python\Python312\Lib\argparse.py", line 1891, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\karar\AppData\Local\Programs\Python\Python312\Lib\argparse.py", line 1924, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\karar\AppData\Local\Programs\Python\Python312\Lib\argparse.py", line 2164, in _parse_known_args
+    self.error(_('the following arguments are required: %s') %
+  File "C:\Users\karar\AppData\Local\Programs\Python\Python312\Lib\argparse.py", line 2655, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Users\karar\AppData\Local\Programs\Python\Python312\Lib\argparse.py", line 2642, in exit
+    _sys.exit(status)
+SystemExit: 2
